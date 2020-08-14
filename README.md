@@ -1,7 +1,7 @@
-# Miami DS Meet-Up June 3rd, 2020
+# Miami DS Meet-Up August 19th, 2020
 ## Overview
 
-In this session, we will be "Building Advanced Image Classifiers with PyTorch".  We will build an image classifier that will be able to detect 5 different types of flowers using an actual vision dataset from Kaggle:
+In this session, we will dive into "Building Advanced Image Classifiers with PyTorch".  We will build an image classifier that will be able to detect 5 different types of flowers using an actual vision dataset from Kaggle:
 
 https://www.kaggle.com/alxmamaev/flowers-recognition 
 
@@ -31,6 +31,7 @@ conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 conda install matplotlib jupyter
 conda install -c intel scikit-learn
 pip install efficientnet_pytorch
+pip install torchsummary
 python -m ipykernel install --user --name MiamiData2020 --display-name "MiamiData2020"
 git clone https://github.com/jacobffjensen/MiamiDS2020June
 jupyter notebook
@@ -43,9 +44,9 @@ jupyter notebook
 
 If you want to work in Google Colab, into Colab and pull the notebook file from GitHub:
 1.  Go to colab.research.google.com
-2.  Click **GitHub** and paste the address **https://github.com/jacobffjensen/MiamiDS2020June**
+2.  Click **GitHub** and paste the address **https://github.com/jacobffjensen/MiamiDS2020August**
 3.  Click **Search Icon**
-4.  Click on **MiamiDSMeetupJune2020.ipynb**, notebook should now open
+4.  Click on **MiamiDSMeetupAugust2020.ipynb**, notebook should now open
 5.  Set the notebook settings to **Python** and **GPU** (**Edit -> Notebook Settings**) 
 
 Then, we will load the dataset into Colab by executing the first cell (click the cell, then click **crtl+enter**).
